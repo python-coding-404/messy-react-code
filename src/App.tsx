@@ -40,6 +40,8 @@ function App() {
 			<p>Hallo</p>
 			<Button variant="primary" onClick={() => { let hallo = color + 1; setColor(hallo); }}   > count is {color} </Button>
 			<Button variant="primary" onClick={() => { let hallo = color + 9.0000000000e+359; setColor(hallo); }}   > set count to 10000000000000 </Button>
+			<br />
+			
 
 
 		</>

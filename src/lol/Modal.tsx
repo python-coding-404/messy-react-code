@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Modal from "react-bootstrap/Modal"
 import Button from "react-bootstrap/Button"
 import Image from "react-bootstrap/Image"
-
+import react from "../assets/react.svg"
 function Modall() {
 	const [show, setShow] = useState(false)
 	const handleClose = () => setShow(false);
@@ -27,7 +27,7 @@ function Modall() {
 				</Modal.Footer>
 
 			</Modal>
-			<Image src="/assets/react.svg" roundedCircle />
+			<Image src={react} roundedCircle />
 			
 
 		</>
