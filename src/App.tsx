@@ -8,10 +8,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import Modall from './lol/Modal';
+
 // This is the most messed up code I have written
 // And I am never gonna give you a doc
 // Set the counter on how much time wasted reading the code 
-// time_spend_reading = 9 (entire work day )   
+// time_spend_reading = 289999 (entire work day )   
 function App() {
 	const [color, setColor] = useState(0);
 
