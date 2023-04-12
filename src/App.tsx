@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
-
+import Modall from './lol/Modal';
 // This is the most messed up code I have written
 // And I am never gonna give you a doc
 // Set the counter on how much time wasted reading the code 
@@ -26,6 +26,7 @@ function App() {
 							<Nav.Link href="/">Home</Nav.Link>
 							<Nav.Link href="/example">Example</Nav.Link>
 							<Nav.Link href="/doc">Doc</Nav.Link>
+							<Nav.Link href="/modal">modal</Nav.Link>
 
 						</Nav>
 					</Navbar.Collapse>
@@ -34,6 +35,7 @@ function App() {
 			<R.Routes>
 				<R.Route element={<Doc />} path="/doc" />
 				<R.Route element={<Example />} path="/example" />
+				<R.Route element={<Modall />} path="/modal" />
 			</R.Routes>
 			<p>Hallo</p>
 			<Button variant="primary" onClick={() => { let hallo = color + 1; setColor(hallo); }}   > count is {color} </Button>
