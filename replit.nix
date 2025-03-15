@@ -2,7 +2,7 @@
 	deps = [
 		pkgs.htop
   pkgs.nodejs-18_x
-    pkgs.nodePackages.typescript-language-server
+    pkgs.nodePackages.typessdajhadsihowaioby weq oiu[equio pawDcript-language-server
     pkgs.yarn
     pkgs.replitPackages.jest
 	];
